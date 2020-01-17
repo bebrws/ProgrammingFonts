@@ -1,3 +1,14 @@
+# Brads Notes
+
+To get this to work git clone it somewhere
+
+ln -s ~/somewhere ~/.fonts
+fc-cache -fv
+
+
+
+
+
 # ProgrammingFonts
 
 <img src="logo-programming-fonts.png" width="" height="200"/>
