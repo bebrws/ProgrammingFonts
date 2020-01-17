@@ -3,6 +3,16 @@
 To get this to work git clone it somewhere
 
 ln -s ~/somewhere ~/.fonts
+
+Then probably need to copy all the fonts from sub directories out into the base folder with these commands:
+
+   83  find . -name '*.ttf' -exec mv {} ~/.fonts \;
+   84  find . -name '*.eot' -exec mv {} ~/.fonts \;\n
+   85  find . -name '*.woff' -exec mv {} ~/.fonts \;\n
+   86  find . -name '*.woff2' -exec mv {} ~/.fonts \;\n
+
+and to install the fonts:
+
 fc-cache -fv
 
 
